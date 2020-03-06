@@ -4,12 +4,15 @@ public class Helloworld {
 
 	public static void main(String[] args) {
 		 
-		int[] numbers = {2, 7, 3, 8, 1, 4 };
+		//int[][][] numbers = new int[2][3][5];
+		//numbers[0][0][0] = 3;
+		//System.out.println(Arrays.deepToString(numbers));
 		
-		Arrays.sort(numbers);
+		int[][] numbers = { {1,2,3} , {4,5,6} };
 		
-		System.out.println(numbers.length);
+		numbers[0][0] = 3;
+		System.out.println(Arrays.deepToString(numbers));
 		
-		System.out.println(Arrays.toString(numbers));
+		
 	} 
 }
