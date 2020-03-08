@@ -1,38 +1,26 @@
-import java.util.Arrays;
-
 
 public class Helloworld {
 
 	public static void main(String[] args) {
-		 
 		
-		int result = 10 / 3;
-		System.out.println(result);
+		// Implicit casting
+		// byte > short > int > long > float > double
 		
+		short x = 1;
+		int y = x + 2;
 		
-		double result2 = (double)10 / (double)3;
-		System.out.println(result2);
+		System.out.println(y);
 		
-		
-		int x = 1;
-		x++;
-		// or this  ++x;
-		System.out.println(x);
-		
-		System.out.println("****** part 2");
-		int a = 1;
-		int b = a++;
-		int c = ++a;  // if put prefix,once increase value and assign value
-		System.out.println(a);
+		double a = 1.1;
+		double b = a + 2;
 		System.out.println(b);
-		System.out.println(c);
 		
+		double u = 3.1;
+		double v = (int)u + 5;
+		System.out.println(v);
 		
-		System.out.println("****** part 3");
-		int aa = 2;
-		aa *= 3;
-		System.out.println(aa);
-		
-		
+		String abc = "6";
+		int ax = Integer.parseInt(abc) + 3;
+		System.out.println(ax);
 	} 
 }
