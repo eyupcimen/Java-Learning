@@ -1,6 +1,5 @@
-
 public class Helloworld {
-
+	
 	public static void main(String[] args) {
 		
 		// Implicit casting
@@ -22,5 +21,9 @@ public class Helloworld {
 		String abc = "6";
 		int ax = Integer.parseInt(abc) + 3;
 		System.out.println(ax);
-	} 
+	}
+	 
+	public String name() {
+		return "hello world!!!!!";
+	}
 }
