@@ -2,28 +2,28 @@ public class Helloworld {
 	
 	public static void main(String[] args) {
 		
-		// Implicit casting
-		// byte > short > int > long > float > double
+		int resultRound = Math.round(1.1F);
+		System.out.println(resultRound);
 		
-		short x = 1;
-		int y = x + 2;
+		int resultCeil = (int)Math.ceil(3.1F);
+		System.out.println(resultCeil);
 		
-		System.out.println(y);
+		int resultFloor = (int)Math.floor(2.1F);
+		System.out.println(resultFloor);
 		
-		double a = 1.1;
-		double b = a + 2;
-		System.out.println(b);
+		int resultMax = Math.max(2, 13);
+		System.out.println(resultMax);
 		
-		double u = 3.1;
-		double v = (int)u + 5;
-		System.out.println(v);
+		int resultMin = Math.max(2, 13);
+		System.out.println(resultMin);
 		
-		String abc = "6";
-		int ax = Integer.parseInt(abc) + 3;
-		System.out.println(ax);
+		double resultRandom = Math.random() * 100;
+		System.out.println(resultRandom);
 		
-		String ab2 = "1.1";
-		double ab2d = Double.parseDouble(ab2) + 3;
-		System.out.println(ab2d);
+		int resultRandomRound = (int)Math.round(Math.random() * 100); 
+		System.out.println(resultRandomRound);
+		
+		int resultRandomInt = (int)(Math.random() * 100); 
+		System.out.println(resultRandomInt);
 	}
 }
