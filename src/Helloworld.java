@@ -21,9 +21,9 @@ public class Helloworld {
 		String abc = "6";
 		int ax = Integer.parseInt(abc) + 3;
 		System.out.println(ax);
-	}
-	 
-	public String name() {
-		return "hello world!!!!!";
+		
+		String ab2 = "1.1";
+		double ab2d = Double.parseDouble(ab2) + 3;
+		System.out.println(ab2d);
 	}
 }
